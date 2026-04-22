@@ -54,7 +54,7 @@ project/
 ##  How to Run the Project  
 
 ### 1. Clone the Repository  
-git clone https://github.com/new  
+git clone [https://github.com/new ](https://github.com/kelseyjhock-svg/Heart-Disease-Prediction-ML-System  ) 
 cd heart-disease-ml  
 
 ### 2. Install Dependencies  
