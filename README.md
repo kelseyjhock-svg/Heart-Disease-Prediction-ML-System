@@ -124,7 +124,7 @@ Raw Data → Preprocessing → Feature Engineering → Model Training → Evalua
 ---
 
 ##  Team Members  
-- Kelsey Hock — https://github.com/new  
+- Kelsey Hock — [https://github.com/new ](https://github.com/kelseyjhock-svg/Heart-Disease-Prediction-ML-System  ) 
 
 ---
 
