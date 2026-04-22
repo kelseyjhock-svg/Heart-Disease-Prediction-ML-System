@@ -1,13 +1,13 @@
-# Heart-Disease-Prediction-ML-System
+# Heart Disease Prediction ML System
 
-##  Project Overview  
+## Project Overview  
 This project develops a machine learning system to predict the likelihood of heart disease using patient health data. The goal is to support early detection and assist healthcare providers in identifying individuals at risk, enabling more proactive and preventative care.
 
 The system uses supervised learning models to analyze patterns in clinical features such as age, cholesterol levels, blood pressure, and heart rate.
 
 ---
 
-##  Objectives  
+## Objectives  
 - Predict the presence of heart disease (binary classification)  
 - Compare performance of multiple machine learning models  
 - Identify the most effective model based on evaluation metrics  
@@ -15,7 +15,7 @@ The system uses supervised learning models to analyze patterns in clinical featu
 
 ---
 
-##  Machine Learning Models  
+## Machine Learning Models  
 The following models are implemented and compared:
 
 - Logistic Regression (baseline)  
@@ -24,7 +24,7 @@ The following models are implemented and compared:
 
 ---
 
-##  Dataset  
+## Dataset  
 - Source: UCI Heart Disease Dataset  
 - Includes features such as:
   - Age  
@@ -36,7 +36,7 @@ The following models are implemented and compared:
 
 ---
 
-##  Project Structure  
+## Project Structure  
 
 project/
 ├── data/
@@ -51,10 +51,11 @@ project/
 
 ---
 
-##  How to Run the Project  
+## How to Run the Project  
 
 ### 1. Clone the Repository  
-git clone [[https://github.com/new ](https://github.com/kelseyjhock-svg/Heart-Disease-Prediction-ML-System  ) ](https://github.com/kelseyjhock-svg/Heart-Disease-Prediction-ML-System  )
+git clone https://github.com/kelseyjhock-svg/Heart-Disease-Prediction-ML-System.git  
+cd Heart-Disease-Prediction-ML-System  
 
 ### 2. Install Dependencies  
 pip install -r requirements.txt  
@@ -72,7 +73,7 @@ uvicorn app.main:app --reload
 
 ---
 
-##  Evaluation Metrics  
+## Evaluation Metrics  
 Model performance is evaluated using:
 
 - Accuracy  
@@ -85,7 +86,7 @@ Recall is emphasized due to the importance of identifying high-risk patients.
 
 ---
 
-##  Experiment Tracking  
+## Experiment Tracking  
 Experiments track:
 - Model type  
 - Hyperparameters  
@@ -96,25 +97,25 @@ This ensures reproducibility and allows comparison across runs.
 
 ---
 
-##  Model Versioning  
+## Model Versioning  
 Trained models are saved and versioned (e.g., model_v1.pkl, model_v2.pkl) to track improvements and maintain reproducibility.
 
 ---
 
-##  System Workflow  
+## System Workflow  
 
 Raw Data → Preprocessing → Feature Engineering → Model Training → Evaluation → Saved Model → Prediction  
 
 ---
 
-##  Challenges  
+## Challenges  
 - Limited dataset size  
 - Class imbalance  
 - Model tuning complexity  
 
 ---
 
-##  Future Improvements  
+## Future Improvements  
 - Use larger and more diverse datasets  
 - Improve model interpretability (e.g., SHAP)  
 - Deploy model in a real-world healthcare environment  
@@ -122,11 +123,10 @@ Raw Data → Preprocessing → Feature Engineering → Model Training → Evalua
 
 ---
 
-##  Team Members  
-- Kelsey Hock — [https://github.com/new ](https://github.com/kelseyjhock-svg/Heart-Disease-Prediction-ML-System  ) 
+## Team Members  
+- Kelsey Hock — https://github.com/kelseyjhock-svg  
 
 ---
 
-## 📎 Repository Link  
-[https://github.com/new  ](https://github.com/kelseyjhock-svg/Heart-Disease-Prediction-ML-System  )
-
+## Repository Link  
+https://github.com/kelseyjhock-svg/Heart-Disease-Prediction-ML-System  
